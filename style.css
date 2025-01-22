@@ -1,0 +1,55 @@
+@font-face {
+    font-family: yekan;
+    src: url('./fonts/YekanBakh-VF.woff2');
+}
+body{
+    font-family: yekan;
+}
+.menu-btn {
+    transition: transform 0.3s ease;
+}
+.menu-btn.open {
+    transform: rotate(90deg);
+}
+
+.top-part{
+    background-image: url('./img/hero-bg.webp'); 
+    background-size: cover;
+    background-position: center;
+}
+.top-first {
+     backdrop-filter: blur(10px); 
+} 
+  
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+
+
+.scroll-indicator {
+    position: static;
+
+    
+    text-align: center;
+    z-index: 50; /* Ensure it appears above other content */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%
+}
+.slide {
+    min-width: 100%; /* Each slide takes full width */
+    box-sizing: border-box;
+}
