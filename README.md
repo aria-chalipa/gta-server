@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/gta-sa.git
+   git clone https://github.com/aria-chalipa/gta-serve.git
    
 ### Instructions for Use
 
